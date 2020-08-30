@@ -1,29 +1,8 @@
-# index-list
+# Vue news list
 
-## Project setup
-```
-npm install
-```
+This is a single page app wrote by VueJS.
+Two pages with vue-route
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The list page renders some news from an open API. 
+It is an endless scrolling page and you can mark up any item you like.
+And it could be stay there even the page is refreshed. 
