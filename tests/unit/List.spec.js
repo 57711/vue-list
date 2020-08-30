@@ -5,7 +5,6 @@ import mockData from './mock.json';
 describe('List.vue', () => {
 	const wrapper = shallowMount(List);
 	const data = mockData;
-	
   it('renders scrollList', () => {
     expect(wrapper.html()).toContain('scrollList');
 	})
